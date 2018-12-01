@@ -1,6 +1,5 @@
 body {
   font-family: 'Anton', sans-serif;
-  background-color: #040404;
 }
 .clear {
   clear: both;
@@ -31,19 +30,21 @@ nav ul li ul.sub-nav {
   height: 30rem;
   width: 100%;
   color: white;
-  -webkit-clip-path: polygon(0 0, 100% 1%, 100% 100%, 18% 88%, 10% 98%, 0 91%);
-  clip-path: polygon(0 0, 100% 1%, 100% 100%, 18% 88%, 10% 98%, 0 91%);
+  background-color: #ce510e;
+  -webkit-clip-path: polygon(0% 0%, 100% 0%, 99% 99%, 68% 89%, 48% 92%, 0 100%);
+  clip-path: polygon(0% 0%, 100% 0%, 99% 99%, 68% 89%, 48% 92%, 0 100%);
 }
 .container-header h1 {
   font-size: 4rem;
   font-weight: 700;
   text-align: center;
-  color: #f2530c;
+  color: #4f78be;
+  text-shadow: 2px 2px 2px white;
 }
 .fun h1 {
   text-align: center;
   margin: 3rem 0;
-  color: #f2530c;
+  color: #4f78be;
 }
 .top {
   display: flex;
@@ -51,7 +52,11 @@ nav ul li ul.sub-nav {
   margin-top: 2rem;
 }
 .top .card {
-  background-color: #f2530c;
+  background-color: #4f78be;
+}
+.mid img {
+  width: 50%;
+  margin: 0 auto;
 }
 .card {
   margin: 2rem 0;
@@ -65,8 +70,8 @@ nav ul li ul.sub-nav {
   margin: 2rem 0;
 }
 .bottom .card {
-  background-color: black;
-  color: #f2530c;
+  background-color: white;
+  color: black;
 }
 footer a {
   font-family: 'Times New Roman', Times, serif;
