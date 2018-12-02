@@ -34,7 +34,19 @@ nav ul li ul.sub-nav {
   -webkit-clip-path: polygon(0% 0%, 100% 0%, 99% 99%, 68% 89%, 48% 92%, 0 100%);
   clip-path: polygon(0% 0%, 100% 0%, 99% 99%, 68% 89%, 48% 92%, 0 100%);
 }
-.container-header h1 {
+.container-header-acc {
+  padding-top: 10rem;
+  background-image: url(../images/SL_KukriGB_Sports_Cricket.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 30rem;
+  width: 100%;
+  color: white;
+  background-color: #ce510e;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 14% 91%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 14% 91%, 0 100%);
+}
+.container-header-acc h1 {
   font-size: 4rem;
   font-weight: 700;
   text-align: center;
@@ -76,5 +88,8 @@ nav ul li ul.sub-nav {
 footer a {
   font-family: 'Times New Roman', Times, serif;
   color: white;
+}
+.top-margin {
+  margin-top: 7rem;
 }
 /*# sourceMappingURL=main.css.map */
