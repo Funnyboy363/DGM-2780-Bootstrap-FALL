@@ -41,6 +41,9 @@ nav ul li ul.sub-nav {
   color: #4f78be;
   text-shadow: 2px 2px 2px white;
 }
+.navbar-brand {
+  padding-left: 5rem;
+}
 .container-header-acc {
   padding-top: 10rem;
   background-image: url(../images/SL_KukriGB_Sports_Cricket.jpg);
@@ -108,5 +111,14 @@ footer a {
 }
 .page-footer a:hover {
   color: #ce510e !important;
+}
+.contact {
+  background-image: url(../images/tenniscourtwallpaper.jpg);
+  background-repeat: none;
+  background-size: cover;
+  padding: 5rem;
+}
+.contact h1 {
+  color: white;
 }
 /*# sourceMappingURL=main.css.map */
